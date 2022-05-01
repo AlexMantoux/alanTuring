@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Orelega+One&display=swap");
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+.accueil1,
+.accueil2,
+.accueil3 {
+  width: 100vw;
+  height: 100vh;
+}
+
+nav ul {
+  height: 70px;
+  width: 100%;
+  background: rgb(27, 27, 27);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  position: fixed;
+  z-index: 500;
+}
+nav ul li {
+  margin: 0 40px;
+}
+nav ul li a {
+  font-size: 25px;
+  color: #f1f1f1;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.wipe-transition {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(90deg, #9bf8f4, #6f7bf7);
+  position: absolute;
+  left: -100%;
+}
+.name {
+  text-align: center;
+  position: relative;
+  font-size: 60px;
+  color: white;
+  line-height: 750px;
+  font-family: "Orelega One", cursive;
+  font-weight: 800;
+}
+.alan {
+  width: 300px; /* you can use % */
+  height: auto;
+  border-radius: 20px;
+  margin-top: 180px;
+  margin-left: 40px;
+}
+
+.machine {
+  width: 300px; /* you can use % */
+  height: auto;
+  border-radius: 20px;
+  margin-top: 260px;
+  margin-left: 40px;
+}
+
+.machine :hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+}
+.captcha {
+  width: 300px; /* you can use % */
+  height: auto;
+  border-radius: 20px;
+  margin-top: 350px;
+  margin-left: 40px;
+}
