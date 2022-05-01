@@ -11,6 +11,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   overflow-x: hidden;
+  background-color: #edf6f9;
 }
 
 .accueil1,
@@ -61,25 +62,42 @@ nav ul li a {
   width: 300px; /* you can use % */
   height: auto;
   border-radius: 20px;
-  margin-top: 180px;
-  margin-left: 40px;
+  margin-top: 200px;
+  margin-left: 300px;
 }
 
 .machine {
-  width: 300px; /* you can use % */
+  width: 400px;
   height: auto;
   border-radius: 20px;
-  margin-top: 260px;
+  margin-top: 290px;
+  margin-left: 200px;
+}
+
+.captcha {
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+  margin-top: 300px;
   margin-left: 40px;
 }
 
-.machine :hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+.arrow{
+   font-size: 40px;
+   font-weight: "bold";
+   margin-bottom: 20px;
+   font-family: "Orelega One", cursive;
+
 }
-.captcha {
-  width: 300px; /* you can use % */
-  height: auto;
-  border-radius: 20px;
-  margin-top: 350px;
-  margin-left: 40px;
+.box_arrow{
+  margin-left: 650px;
+  margin-top:-210px;
+}
+.box_arrow0{
+  margin-left: 650px;
+  margin-top:-370px;
+}
+
+.box_test{
+  margin-left: 160px;
 }
